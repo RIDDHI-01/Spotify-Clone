@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - web player : Music for everyone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="navoption" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"></a>Home</a>
+                </div>
+                    <div class="navoption">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#" >Search</a>
+                </div>
+                
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="liboptions navoption">
+                        <img src="library_icon.png">
+                        <a href="#" >Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <p class="boxp1">Create your first playlist</p>
+                    <p class="boxp2">It's easy,we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="boxes">
+                    <p class="boxp1">Let's find some podcasts to follow</p>
+                    <p class="boxp2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browsse podcasts</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="maincontent">
+            <div class="stickynav">
+                <div class="navicons">
+                    <img src="backward_icon.png">
+                    <img class="hide" src="forward_icon.png">
+                </div>
+                <div class="downloads">            
+                    <button class="badge navitem hide" >Explore Premium</button>
+                    <button class="badge navitem dark"><i class="fa-regular fa-circle-down" style="margin-right:5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user navitem"></i>
+                </div>
+            </div>
+                <h2>Recently played</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img class="cardimg" src="card1img.jpeg">
+                        <p class="cardtitle">Top 50 - Global</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img class="cardimg" src="card2img.jpeg">
+                        <p class="cardtitle">Darshan Raval Hits</p>
+                        <p class="cardinfo">Catch all the latest music from artist you follow, pl...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="reels.jpeg">
+                        <p class="cardtitle">Top 2025 - Reels</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="card4img.jpeg">
+                        <p class="cardtitle">South Hits</p>
+                        <p class="cardinfo">Contains all the favourite hit songs from the south mov...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="global.jpeg">
+                        <p class="cardtitle">Top 50 - Global</p>
+                        <p class="cardinfo">Lana Del Rey, Rauw Alejandro, Green Day, Qu...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="card3img.jpeg">
+                        <p class="cardtitle">Ali Khan - Hits</p>
+                        <p class="cardinfo">Contains all the favourite hit songs from Rahet Fateh Al...</p>
+                    </div>
+                </div>
+                <h2>Featured charts</h2>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img class="cardimg" src="card1img.jpeg">
+                        <p class="cardtitle">Top 50 - Global</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="usa.jpg">
+                        <p class="cardtitle">Top 50 - USA</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="card6img.jpeg">
+                        <p class="cardtitle">Top 50 - India</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img class="cardimg" src="Australia.jpg">
+                        <p class="cardtitle">Top 50 - Australia</p>
+                        <p class="cardinfo">Your daily updates of the most played tracks right...</p>
+                    </div>
+                </div>
+                <h2>Popular Artist</h2>
+                <div class="cardcontainer">
+                    <div class="circlecard">
+                        <div class="circleimg">
+                            <img class="circle" src="SHREYAG.jpeg">
+                        </div>
+                        <p class="cardtitle">Shreya Ghosal</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circleimg">
+                            <img class="circle" src="DR.jpeg">
+                        </div>
+                        <p class="cardtitle">Darshan Raval</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circleimg">
+                            <img class="circle" src="kinggg.jpg">
+                        </div>
+                        <p class="cardtitle">King</p>
+                    </div>
+                    <div class="circlecard">
+                        <div class="circleimg">
+                            <img class="circle" src="arijitt.jpeg">
+                        </div>
+                        <p class="cardtitle">Arijit Singh</p>
+                    </div>
+                </div>
+                <h2>Popular albums and singles</h2>
+                <div class="cardcontainer">
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="stk.jpeg">
+                         </div>
+                         <p class="cardtitle">Sanam Teri Kasam</p>
+                         <p class="cardinfo">Himesh Reshmmiya</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="Aashiqui_2_(Poster).jpg">
+                         </div>
+                         <p class="cardtitle">Aashiqui 2</p>
+                         <p class="cardinfo">Mithoon, Ankit Tiwari, Jeet</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="shiddat.jpeg">
+                         </div>
+                         <p class="cardtitle">Shiddat</p>
+                         <p class="cardinfo">Manan Bhardwaj, Ankit</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="jwm.jpg">
+                         </div>
+                         <p class="cardtitle">Jab We Met</p>
+                         <p class="cardinfo">Pritam, Irshad, Sandesh</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="glory.jpeg">
+                         </div>
+                         <p class="cardtitle">Glory</p>
+                         <p class="cardinfo">Yo Yo Honey Singh</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="dopatti.jpg">
+                         </div>
+                         <p class="cardtitle">Do Patti</p>
+                         <p class="cardinfo">Sachet-Parampara, Kausar</p>  
+                    </div>
+                    <div class="albums">
+                        <!-- text and img -->
+                         <div class="albimg">
+                            <!-- img --><img class="bumimg" src="goat.jpeg">
+                         </div>
+                         <p class="cardtitle">Young G.O.A.T</p>
+                         <p class="cardinfo">Cheema Y, Gur Sidhu</p>  
+                    </div>
+                </div>
+                <div class="navfooter">
+                    <div class="footer">
+                    <div class="footerbox">
+                        <ul><b>Company</b></ul>
+
+                            <ul class="last">About</ul>
+                            <ul class="last">Jobs</ul>
+                            <ul class="last">For the Record</ul>
+                       
+                    </div>
+                    <div class="footerbox">
+                        <ul><b>Communities</b></ul>
+                     
+                         <ul class="last">For Artist</ul>
+                         <ul class="last">Developoers</ul>
+                         <ul class="last">Advertising</ul>
+                         <ul class="last">Vendors</ul>
+                         <ul class="last">Investors</ul>
+                     
+                    </div>
+                    <div class="footerbox">
+                        <ul><b>Useful Links</b></ul>
+                        <ul class="last">Support</ul>
+                        <ul class="last">Free Mobile App</ul>
+                        
+                        
+                    </div>
+                    <div class="footerbox">
+                        <ul><b>Spotify Plans</b></ul>
+                        
+                            <ul class="last">Premium Individual</ul>
+                            <ul class="last">Premium Duo</ul>
+                            <ul class="last">Premium Family</ul>
+                            <ul class="last">Premium Student</ul>
+                            <ul class="last">Student Free</ul>
+                        
+                    </div>
+                    <div class="footerbox iconsc">
+                       <div class="icon">
+                         <i class="fa-brands fa-instagram"></i> 
+                       </div>
+                       <div class="icon">
+                         <i class="fa-brands fa-twitter"></i>
+                       </div> 
+                       <div class="icon">
+                         <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div> 
+                <!-- footer closing -->
+                <div class="line"></div>
+                <div class="copy">
+                    <i class="fa-solid fa-copyright"></i>
+                    <p class="end">2025 Spotify AB</p>
+                </div>
+        </div>
+        
+        </div>
+
+        <div class="musicplayer">
+            <div class="album"></div>
+            <div class="player">
+                <div class="playercontrols">
+                    <img src="player_icon1.png" class="playercontrolsi">
+                    <img src="player_icon2.png" class="playercontrolsi">
+                    <img src="player_icon3.png" class="playercontrolsi" style="opacity:1; height:2rem;">
+                    <img src="player_icon4.png" class="playercontrolsi">
+                    <img src="player_icon5.png" class="playercontrolsi">
+
+                </div>
+                <div class="playbackbar">
+                    <span class="currtime">00:00</span>
+                    <input type="range" min="0" max="100" class="progressbar" step="1">
+                    <span class="finaltime">3:33</span>
+                </div>
+            </div>
+            <div class="control"></div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
