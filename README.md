@@ -1,9 +1,9 @@
 
-#🎵 Spotify Clone (Frontend Only)
+## 🎵 Spotify Clone (Frontend Only)
 
 Welcome to my Spotify Clone!This is a frontend-only project built with HTML and CSS to replicate the design and layout of the official Spotify web player.
 
-#🚀 What’s Inside?
+# 🚀 What’s Inside?
 
 🎧 A visually rich UI closely mimicking Spotify's design
 
@@ -13,23 +13,23 @@ Welcome to my Spotify Clone!This is a frontend-only project built with HTML and 
 
 *This project is purely static — no functionality yet, but the design is ready and crafted with love!
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
--HTML5
+- HTML5
 
--CSS
+- CSS
 
-#🔮 What's Next?
+# 🔮 What's Next?
 
 I plan to:
 
--Integrate JavaScript for interactivity
+- Integrate JavaScript for interactivity
 
--Add audio playback features
+- Add audio playback features
 
--Implement playlist functionality
+- Implement playlist functionality
 
--Possibly connect to Spotify's API in the future for real data
+- Possibly connect to Spotify's API in the future for real data
 
 Stay tuned for updates! 🌟
 
